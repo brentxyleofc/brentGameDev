@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brent's Game Dev Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .game {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brent's Game Development Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#games">Games</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I'm Brent, a passionate game developer with a love for creating immersive experiences.</p>
+    </section>
+
+    <section id="games">
+        <h2>My Games</h2>
+        <div class="game">
+            <h3>Game Title 1</h3>
+            <p>Description of the game. What makes it unique? What did you learn while making it?</p>
+        </div>
+        <div class="game">
+            <h3>Game Title 2</h3>
+            <p>Description of the game. Challenges faced and features implemented.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me at <a href="mailto:brent@example.com">brent@example.com</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Brent's Game Dev Portfolio</p>
+</footer>
+
+</body>
+</html>
